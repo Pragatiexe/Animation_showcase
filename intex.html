@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SVG Animation Showcase</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#section1">Icon Animation</a></li>
+      <li><a href="#section2">Path Animation</a></li>
+    </ul>
+  </nav>
+
+  <section id="section1" class="section">
+    <h1>Animated SVG Icon</h1>
+    <svg class="icon" viewBox="0 0 100 100" width="100" height="100">
+      <circle cx="50" cy="50" r="40" />
+    </svg>
+  </section>
+
+  <section id="section2" class="section">
+    <h1>SVG Path Animation</h1>
+    <svg class="path-animation" viewBox="0 0 500 100" width="500" height="100">
+      <path d="M10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80" />
+    </svg>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
